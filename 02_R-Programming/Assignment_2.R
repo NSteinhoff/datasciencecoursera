@@ -48,7 +48,7 @@ makeCachedVector <- function(x = numeric()){
 
 ## Assignment
 # Example
-makeMatrix <- function(x = matrix()){
+makeCacheMatrix <- function(x = matrix()){
 	i <- NULL
 	set <- function(y){
 		x <<- y
@@ -72,8 +72,8 @@ cacheInverse <- function(x, ...){
 	i
 }
 
-# My version: Does not require a second function. The caching is included in the getMean function of the cached vector. Works with additional options supplied to the getInverse function.
-makeCachedMatrix <- function(x = matrix()){
+# My version: Does not require a second function. The caching is included in the getInverse function of the cached matrix. Works with additional options supplied to the getInverse function.
+makeAutoCachedMatrix <- function(x = matrix()){
 	i <- NULL
 	args <- NULL
 	
