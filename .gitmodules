@@ -1,3 +1,6 @@
 [submodule "02_R-Programming/ProgrammingAssignment2"]
 	path = 02_R-Programming/ProgrammingAssignment2
 	url = /Users/nikosteinhoff/Documents/Coursera/CourseraDataScience/02_R-Programming/ProgrammingAssignment2
+[submodule "ExData_Plotting1"]
+	path = ExData_Plotting1
+	url = /Users/nikosteinhoff/Documents/Coursera/CourseraDataScience/04_ExploratoryDataAnalysis/ExData_Plotting1
